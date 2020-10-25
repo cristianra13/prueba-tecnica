@@ -1,0 +1,24 @@
+<div class="container mt-5">
+    <h1>Procesar Registros</h1>
+    <hr>
+    <div class="row">
+
+        <div class="form-group col-md-4 mb-2">
+            <input type="text" class="form-control" placeholder="Nombre" [(ngModel)]="registroUsuario.nombre">
+        </div>
+
+        <div class="form-group col-md-4 mb-2">
+            <input type="text" class="form-control" placeholder="Apellido" [(ngModel)]="registroUsuario.apellido">
+        </div>
+
+        <!-- <div class="form-group col-md-4 mb-2">
+            <input type="checkbox" class="form-control" value="true" [disabled]="false" [(ngModel)]="registroUsuario.procesado">
+        </div> -->
+
+        <div class="col">
+            <button type="submit" class="btn btn-primary btn-block" (click)="envioDatos()">Guardar</button>
+        </div>
+
+
+    </div>
+</div>
